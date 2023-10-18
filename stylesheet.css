@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     width: 100%;
     height: 100%;
@@ -108,3 +109,85 @@ footer{
   margin:0px;
   width:100%;
 }
+=======
+#home{ 
+    background-image: url("https://media.istockphoto.com/id/1440711628/photo/copenhagen-denmark.jpg?s=1024x1024&w=is&k=20&c=x2IAuIyfgkwYgz_7fcjcZ9mm5AQ0z5VKAJa9DZ20rok=");
+    width:100%;
+    height:400px;
+}
+.fix{
+    position:absolute;
+    bottom:260px;
+    color:brown;
+    left: 45%;
+    padding: 10px;
+}
+
+li{padding: 5px;
+display:inline-block;
+margin:none;
+font-size: large;
+width:50px;
+}
+.home p{position:absolute;
+bottom:130px;
+color:bisque;
+left: 45%;
+background-color: black;
+padding: 10px;
+}
+ul{
+    background-color: rgba(0, 0, 0, 0.6);  
+    margin:0;
+    padding:0;
+    position:absolute;
+    top: 10px;
+    position:fixed;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+li a:hover {
+    background-color: rgb(32, 2, 2);
+}
+#design{
+    font-family: 'Courier New', Courier, monospace;
+    color:whitesmoke;
+    background-color: black;
+    width:100%;
+    height:400px;
+    text-align: center;
+}
+table{
+    position:absolute;
+    left:25%;
+    height:50%;
+    width:60%;
+    border-collapse:collapse;
+}
+th{
+    background-color:red;
+    padding:10px;
+}
+td{
+    background-color: white;
+    color:black;
+}
+#about{
+    background-color:rgba(165, 42, 42, 0.728);
+}
+#about p{
+ text-align: center;
+}
+figure{
+    display:inline-block;
+}
+span{
+    color:blue;
+}
+
+footer{
+    margin:0;
+}
+>>>>>>> a6305dea991ab40b6875e4d7276f439b9ef3b382
